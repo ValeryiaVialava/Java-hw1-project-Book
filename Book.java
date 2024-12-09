@@ -3,7 +3,6 @@ public class Book {
     private final int NUMBER_OF_PAGES;
     private boolean readStatus;
     private int readPages;
-
     public Book (String bookName, int numberOfPages) {
         BOOK_NAME = bookName;
         NUMBER_OF_PAGES = numberOfPages;
