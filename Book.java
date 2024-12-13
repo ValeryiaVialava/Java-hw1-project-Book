@@ -1,29 +1,29 @@
 public class Book {
-    private final String BOOK_NAME;
-    private final int NUMBER_OF_PAGES;
+    private final String bookName;
+    private final int numberOfPages;
     private boolean readStatus;
     private int readPages;
 
     public Book (String bookName, int numberOfPages) {
-        BOOK_NAME = bookName;
-        NUMBER_OF_PAGES = numberOfPages;
+        this.bookName = bookName;
+        this.numberOfPages = numberOfPages;
         readStatus = false;
         readPages = 0;
     }
 
     public void addReadPages(int newReadPages){
-        if(readPages+newReadPages>=NUMBER_OF_PAGES){
-            readPages=NUMBER_OF_PAGES;
+        if(readPages+newReadPages>=numberOfPages){
+            readPages=numberOfPages;
             readStatus=true;
         } else readPages+=newReadPages;
     }
 
-    public String getBOOK_NAME(){
-        return BOOK_NAME;
+    public String getBookName(){
+        return bookName;
     }
 
-    public int getNUMBER_OF_PAGES(){
-        return NUMBER_OF_PAGES;
+    public int getNumberOfPages(){
+        return numberOfPages;
     }
 
 

@@ -1,22 +1,24 @@
-#### TASK
-Stwórz dwie nowe klasy Book i MyFirstProgram.
-W klasie Book powinno się znaleźć:
--  Pole finalne zawierające nazwę książki (typu String)
-- Pole finalne zawierające ilość stron książki.
-- Pole zawierające informacje czy książka jest przeczytana. Na początku każda książka jest nie przeczytana.
-- Pole zawierające informacje ile stron zostało przeczytanych. Na początku ma wartość 0.
-- Konstruktor z parametrami nazwa i ilość stron.
-- Metoda pozwalająca dodać do przeczytanych stron określoną ich liczbę (np. addReadPages(int numberOfPages)). Jeśli liczba przeczytanych stron jest większa bądź równa ilości wszystkich stron, to oznaczamy tą książkę jako przeczytaną. (Instrukcja if wygląda tak samo jak w C++)
+#### **TASK**
 
-W klasie MyFirstProgram powinna znaleźć się metoda main realizująca poniższy scenariusz
-- Stwórz dwie książki
-- Wypisz na ekran ich nazwy i ilość stron.
-- Wypisz ilość przeczytanych stron w pierwszej i drugiej książce.
-- Wypisz na ekran informacje czy obie książki są przeczytane czy nie.
-- Dodaj pierwszej książce tyle stron, aby została ona przeczytana.
-- Dodaj drugiej książce tyle stron, aby nie została ona przeczytana.
-- Wypisz ilość przeczytanych stron w pierwszej i drugiej książce.
-- Wypisz na ekran informacje czy obie książki są przeczytane czy nie.
+Create two new classes: `Book` and `MyFirstProgram`.  
+
+In the `Book` class, the following elements should be included:  
+- A final field containing the name of the book (type `String`).  
+- A final field containing the number of pages in the book.  
+- A field containing information about whether the book has been read. Initially, every book is unread.  
+- A field containing information about how many pages have been read. Initially, this value is `0`.  
+- A constructor with parameters for the name and the number of pages.  
+- A method that allows adding a specific number of pages to the read count (e.g., `addReadPages(int numberOfPages)`). If the number of read pages is greater than or equal to the total number of pages, the book is marked as read. (The `if` statement is written the same way as in C++.)  
+
+In the `MyFirstProgram` class, the `main` method should implement the following scenario:  
+- Create two books.  
+- Print their names and the number of pages to the screen.  
+- Print the number of pages read in the first and second books.  
+- Print information on whether both books are read or unread.  
+- Add enough pages to the first book so that it becomes read.  
+- Add some pages to the second book so that it remains unread.  
+- Print the number of pages read in the first and second books.  
+- Print information on whether both books are read or unread.
 
 ---
 

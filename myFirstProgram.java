@@ -3,8 +3,8 @@ public class myFirstProgram {
         Book book1 = new Book("Learn C++", 427);
         Book book2 = new Book("Java for beginners", 328);
 
-        System.out.println("First book: " + book1.getBOOK_NAME() + ", Pages: " + book1.getNUMBER_OF_PAGES());
-        System.out.println("Second book: " + book2.getBOOK_NAME() + ", Pages: " + book2.getNUMBER_OF_PAGES());
+        System.out.println("First book: " + book1.getBookName() + ", Pages: " + book1.getNumberOfPages());
+        System.out.println("Second book: " + book2.getBookName() + ", Pages: " + book2.getNumberOfPages());
 
         System.out.println(book1.getReadPages() + " pages read in the First book");
         System.out.println(book2.getReadPages() + " pages read in the Second book");
